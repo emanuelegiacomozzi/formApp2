@@ -7,6 +7,7 @@ import {
   StyleSheet,
   ScrollView,
 } from 'react-native';
+import styles from './styles'
 
 const RegistrationScreen = ({ navigation }) => {
   const [formData, setFormData] = useState({
@@ -133,3 +134,5 @@ const RegistrationScreen = ({ navigation }) => {
     </ScrollView>
   );
 };
+
+export default RegistrationScreen;

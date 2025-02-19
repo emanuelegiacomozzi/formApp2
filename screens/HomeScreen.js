@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import styles from './styles'
 
 const HomeScreen = ({ navigation }) => {
   return (
@@ -14,3 +15,5 @@ const HomeScreen = ({ navigation }) => {
     </View>
   );
 };
+
+export default HomeScreen;
